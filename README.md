@@ -3,23 +3,15 @@
 ## Innovate with AI: Harnessing OpenAI's Capabilities Across Diverse Domains
 
 ### Overview:
-In an era of rapid technological evolution, AI's transformative potential in various industries is increasingly evident. OpenAI's latest APIs offer a powerful toolkit for redefining problem-solving and innovation. This hackathon invites imaginative individuals to explore the expansive potential of these APIs across multiple sectors.
+Trady is a cutting-edge application designed to revolutionize stock market analysis by harnessing the power of OpenAI Vision. This intelligent tool is specifically crafted for investors, traders, and financial enthusiasts seeking a deep dive into the technical aspects of stock charts. By seamlessly integrating OpenAI Vision, the application transforms static stock chart screenshots into dynamic insights, providing users with a comprehensive analysis of technical indicators.
 
-### Challenge:
-Participants will harness OpenAI's latest APIs to develop groundbreaking applications or solutions. This challenge is deliberately open-ended, encouraging creativity and innovation in any domain – including healthcare, finance, education, entertainment, environmental sustainability, or beyond. Success hinges on effectively leveraging AI to tackle real-world challenges, enhance systems, or forge entirely novel innovations.
+### Integrations:
+- OpenAI Vision Integration
+      Implemented a function that takes a stock chart image as input, sends it to the OpenAI Vision API, and receives the analysis results.
+- User Authentication (Zerodha)
+      Implemented a user authentication flow using Zerodha's OAuth process. This involves redirecting users to the Zerodha login page, obtaining consent, and receiving an authorization code.
+- Buy/Sell API Integration (Zerodha)
+      Uses Zerodha's Kite Connect API to place buy and sell orders. 
+![image](https://github.com/Top-100-Coders/Trady/assets/71429125/9b2af516-a170-4aa3-bafe-639137f0e193)
 
-### Objectives:
-- **Identify**: Recognize a problem or opportunity in your chosen domain.
-- **Develop**: Craft an innovative solution using OpenAI's APIs. Solutions may encompass natural language processing, machine learning, data analysis, automation, or any AI-driven approach provided by OpenAI.
-- **Demonstrate**: Show how your solution can significantly impact your chosen field, whether it's through solving complex issues, boosting efficiency, or unlocking new possibilities.
-
-### Evaluation Criteria:
-1. **Innovation and Creativity**: The originality and ingenuity of the solution.
-2. **Impact**: The potential significance of the solution in the selected domain.
-3. **Use of AI**: The effectiveness of OpenAI's APIs in the project.
-4. **Feasibility**: Technical feasibility and realistic implementability of the solution.
-5. **Presentation**: The clarity and persuasiveness of the project pitch.
-
-### Call to Action:
-We invite you to think unconventionally and utilize advanced AI tools to make a substantial difference in your chosen field.
 
