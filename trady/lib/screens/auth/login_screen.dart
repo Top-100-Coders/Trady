@@ -57,7 +57,7 @@ class Login extends HookWidget {
                       kSizedBox25,
                       InkWell(
                         onTap: ()async{
-                          Navigator.pushNamed(context, homeRoute);
+                          Navigator.pushReplacementNamed(context, homeRoute);
                          //  isLoading.value = true;
                          // requestCode.value = await Navigator.push(context, MaterialPageRoute(builder: (context) => WebViewScreen())) as String?;
                          //  await loginNotifier.getLogin(context: context,token: requestCode.value ?? "");

@@ -31,7 +31,7 @@ class AnalysisApi {
           ]
         }
       ],
-      "max_tokens": 4000
+      "max_tokens": 1000
     });
     final response = await Api().dio.post(
       uri,

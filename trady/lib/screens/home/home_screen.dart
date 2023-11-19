@@ -15,6 +15,7 @@ import 'package:trady/constants/app_routes.dart';
 import 'package:trady/constants/constants.dart';
 import 'package:trady/constants/values_manger.dart';
 import 'package:trady/core/notifier/analysis/analysis.notifier.dart';
+import 'package:trady/screens/auth/login_screen.dart';
 import 'package:trady/screens/home/widgets/text_field_widget.dart';
 import '../../constants/asset_manager.dart';
 import '../../constants/color_manger.dart';
@@ -137,9 +138,10 @@ class HomeScreen extends HookWidget {
                                       showCloseIcon: true,
                                       btnCancelOnPress: () {},
                                       btnOkOnPress: () async {
-                                        await context
-                                            .read<LogoutNotifier>()
-                                            .logout(context: context);
+                                        // await context
+                                        //     .read<LogoutNotifier>()
+                                        //     .logout(context: context);
+                                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>Login() ));
                                       },
                                     ).show();
                                   },
