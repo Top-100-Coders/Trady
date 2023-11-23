@@ -17,4 +17,5 @@ https://github.com/Top-100-Coders/Trady/blob/main/pitch%20deck.pdf
       Uses Zerodha's Kite Connect API to place buy and sell orders. 
 ![image](https://github.com/Top-100-Coders/Trady/assets/71429125/9b2af516-a170-4aa3-bafe-639137f0e193)
 
+![111](https://github.com/Top-100-Coders/Trady/assets/71429125/df260f1d-968c-4bbc-9add-75bf6b96b354)
 
